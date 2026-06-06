@@ -1,2 +1,44 @@
+# Unreal Engine file types
+
 # Auto detect text files and perform LF normalization
 * text=auto
+
+# UE Binary Assets — treat as binary (no diff, no merge, no LF conversion)
+*.uasset binary
+*.umap binary
+*.uexp binary
+
+# Media / Textures
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.bmp binary
+*.tga binary
+*.tif binary
+*.tiff binary
+*.exr binary
+*.hdr binary
+*.dds binary
+
+# Audio
+*.wav binary
+*.mp3 binary
+*.ogg binary
+
+# 3D Models
+*.fbx binary
+*.obj binary
+*.gltf binary
+*.glb binary
+
+# Fonts
+*.ttf binary
+*.otf binary
+
+# Archives
+*.zip binary
+*.7z binary
+*.rar binary
+
+# Minidumps
+*.dmp binary
