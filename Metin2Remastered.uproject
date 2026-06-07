@@ -1,8 +1,19 @@
 {
 	"FileVersion": 3,
-	"EngineAssociation": "5.1",
-	"Category": "",
-	"Description": "",
+	"EngineAssociation": "5.8",
+	"Category": "Game",
+	"Description": "Metin2 Remastered in Unreal Engine 5.8",
+	"Modules": [
+		{
+			"Name": "Metin2Remastered",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine",
+				"CoreUObject"
+			]
+		}
+	],
 	"Plugins": [
 		{
 			"Name": "ModelingToolsEditorMode",
@@ -17,6 +28,10 @@
 		},
 		{
 			"Name": "Water",
+			"Enabled": true
+		},
+		{
+			"Name": "EnhancedInput",
 			"Enabled": true
 		}
 	]
